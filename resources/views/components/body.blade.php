@@ -1,0 +1,1 @@
+@include('components.textarea',['name'=>'body','title'=>'body','data'=> isset($data) ? $data : '' ])

@@ -1,0 +1,50 @@
+* {
+	text-align: right;
+}
+label {
+	float: right;
+}
+.telephone-item i {float: left !important}
+.sidebar {
+    right: 0;
+}
+.sidebar-menu>li>a {
+	text-align: left;
+}
+.header .header-container .nav-left>li, .header .header-container .nav-right>li {
+	float:right !important;
+}
+.page-container {
+    padding-right: 280px;
+    padding-left: 0px !important;
+}
+.is-collapsed .page-container {
+    padding-right: 70px;
+    padding-left: 0px !important;
+}
+.header .header-container .nav-left {
+    float: right !important;
+    margin-right: 15px;
+    margin-left:0px !important;
+}
+.alert li {
+    direction: rtl;
+}
+.header .header-container .nav-right {
+    float: left !important;
+}
+.alert-flash {
+    left: 25px;
+    right:unset !important;
+}
+table {direction: rtl}table caption, table th, table td {direction: ltr; text-align: center;}
+@media screen and (max-width: 1439px) and (min-width: 992px) {
+.page-container {
+    padding-right: 70px;
+    padding-left: 0px !important;
+}
+.is-collapsed .page-container {
+    padding-right: 280px;
+    padding-left: 0px !important;
+}
+}

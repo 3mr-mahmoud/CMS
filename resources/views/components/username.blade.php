@@ -1,0 +1,1 @@
+@include('components.input',['name'=>'username','title'=>'username','data'=> isset($data) ? $data : '' ])

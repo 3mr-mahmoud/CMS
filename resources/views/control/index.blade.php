@@ -1,0 +1,2 @@
+@extends('control.layout.default')
+ 

@@ -20,15 +20,15 @@ class AuthController extends Controller
 			'email' => 'required|email'
 		]);
 			$credentials = [
+			'email' => request('email'),
             'password' => request('password'),
-			'email' => request('email')
         ];
         $remember = false;
         if(request('remember')) $remember = true;
 		if(Auth::attempt($credentials, $remember)) {
 			return redirect()->intended(request()->segment(1).'/control-panel');
 		} else {
-			$errors = collect([__('messages.loginfail')]);
+			$errors = collect([__('messages.loginFail')]);
 			return back()->withErrors($errors); 
 		}
 	}

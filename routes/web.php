@@ -1,5 +1,5 @@
 <?php
-if(!app()->environment('testing')) Auth::loginUsingId(2);
+// if(!app()->environment('testing')) Auth::loginUsingId(2);
 /*
 |--------------------------------------------------------------------------
 | Web Routes

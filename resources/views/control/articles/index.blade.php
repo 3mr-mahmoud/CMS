@@ -2,7 +2,7 @@
 @section('form-title',trans_choice('labels.articles',1))
 @section('table-headers')
                 <th>#</th>
-                <th>{{ __('validation.attributes.title')}}</th>
+                <th>{{ __('Validation.attributes.title')}}</th>
                 <th>{{ __('labels.created_at')}}</th>
                 <th>{{ __('labels.actions')}}</th>
 @endsection
